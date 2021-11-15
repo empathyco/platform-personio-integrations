@@ -71,6 +71,6 @@ Follow the steps below to get started with the Personio integration with GitHub 
     node google_workspace.js $MAIL_USERNAME $MAIL_PASSWORD
     ```
 
-17. When you verify everything is working from your local, you are able to uncomment commands in GitHub Actions so everything is performed automatically without manual intervention.
+17. When you verify everything is working from your local, you are able to uncomment commands in GitHub Actions so everything is performed automatically without manual intervention. Uncomment all comments in `.github/workflows/github.yml`, `.github/workflows/personio.yml` and `.github/workflows/google_workspace.yml` to perform actions automatically.
 
-18. Change the [cronjob pattern](https://crontab.guru/) as you wish to pull data from Personio API and perform the autocommit step if there are any changes between Personio API and the employees data stored in this repository. Also you can execute the Personio GitHub Action manually. By default, the cronjob is set to run every hour.
+18. Change the [cronjob pattern](https://crontab.guru/) as you wish in `.github/workflows/personio.yml` to pull data from Personio API and perform the autocommit step if there are any changes between Personio API and the employees data stored in this repository. Also you can execute the Personio GitHub Action manually. By default, the cronjob is set to run every hour.
