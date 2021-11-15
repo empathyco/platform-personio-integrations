@@ -4,7 +4,7 @@ The Personio integration with GitHub and Google Workspace allows you to integrat
 
 The following diagram shows all the pieces involved in the integration:
 
-![Integration diagram](diagram.png)
+![Integration diagram](integrations-diagram.png)
 
 ## Prerequisites
 
