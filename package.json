@@ -1,0 +1,28 @@
+{
+  "name": "platform-personio-integrations",
+  "version": "1.0.0",
+  "description": "Personio, Google Workspace & GitHub",
+  "main": "personio.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node personio.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/empathyco/platform-personio-integrations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/empathyco/platform-personio-integrations/issues"
+  },
+  "homepage": "https://github.com/empathyco/platform-personio-integrations#readme",
+  "dependencies": {
+    "@octokit/core": "^3.5.1",
+    "googleapis": "^88.2.0",
+    "mustache": "^4.2.0",
+    "node-fetch": "^3.0.0",
+    "nodemailer": "^6.7.0"
+  }
+}

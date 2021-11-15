@@ -1,0 +1,19 @@
+{
+    "teams": [
+        {
+            "name": "employees",
+            "description": "Write access to all repositories in organization",
+            "parent": null
+        },
+        {
+            "name": "backend",
+            "description": "Team for mention purposes on backend repositories",
+            "parent": "employees"
+        },
+        {
+            "name": "frontend",
+            "description": "Team for mention purposes on frontend repositories",
+            "parent": "employees"
+        }
+    ]
+}

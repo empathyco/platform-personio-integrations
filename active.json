@@ -1,0 +1,37 @@
+{
+  "active": [
+    {
+      "first_name": "Darth",
+      "last_name": "Vader",
+      "github_username": "DarthVader",
+      "distribution_lists": "all@company.com,developers@company.com,backend@company.com",
+      "personal_email": "darthvader@outlook.com",
+      "job_title": "Backend Developer",
+      "email": "darth-vader@company.com",
+      "permissions": "employees,backend",
+      "aliases": "darth-vader@domain.com"
+    },
+    {
+      "first_name": "Luke",
+      "last_name": "Skywalker",
+      "github_username": "LukeJedi",
+      "distribution_lists": "all@company.com,developers@company.com,frontend@company.com",
+      "personal_email": "lukesky@gmail.com",
+      "job_title": "Frontend Developer",
+      "email": "luke-skywalker@company.com",
+      "permissions": "employees,frontend",
+      "aliases": "luke-skywalker@domain.com"
+    },
+    {
+      "first_name": "Leia",
+      "last_name": "Skywalker",
+      "github_username": "",
+      "distribution_lists": "all@company.com,managers@company.com",
+      "personal_email": "leia.resistance@me.com",
+      "job_title": "Project Manager",
+      "email": "leia-skywalker@company.com",
+      "permissions": "employees",
+      "aliases": ""
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "inactive": [
+    {
+      "first_name": "Anakin",
+      "last_name": "Skywalker",
+      "github_username": "AnakinTatooine",
+      "distribution_lists": "all@company.com,developers@company.com,frontend@company.com",
+      "personal_email": "anakin@apple.com",
+      "job_title": "Frontend Developer",
+      "email": "anakin-skywalker@company.com",
+      "permissions": "employees,frontend",
+      "aliases": "anakin-skywalker@domain.com"
+    }
+  ]
+}

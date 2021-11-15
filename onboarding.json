@@ -1,0 +1,15 @@
+{
+  "onboarding": [
+    {
+      "first_name": "Rey",
+      "last_name": "Skywalker",
+      "github_username": "ReyPalpatine",
+      "distribution_lists": "all@company.com,devops@company.com",
+      "personal_email": "reyjakku@gmail.com",
+      "job_title": "DevOps Engineer",
+      "email": "rey-skywalker@company.com",
+      "permissions": "employees,backend,frontend",
+      "aliases": ""
+    }
+  ]
+}

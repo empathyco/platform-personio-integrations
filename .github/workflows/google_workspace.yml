@@ -1,0 +1,25 @@
+name: Google Workspace Update
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'npm'
+      - run: |
+          npm install
+          # echo $GOOGLE_WORKSPACE_CREDS >> credentials.json
+          # node google_workspace.js $MAIL_USERNAME $MAIL_PASSWORD
+        env:
+          GOOGLE_WORKSPACE_CREDS: ${{ secrets.GOOGLE_WORKSPACE_CREDS }}
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
