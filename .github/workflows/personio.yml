@@ -5,17 +5,16 @@ on:
   #   # Runs "At minute 0." (see https://crontab.guru)
   #   - cron: '0 * * * *'
   workflow_dispatch:
-    branches:
-      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.SUPPORT_TOKEN }}
-      - uses: actions/setup-node@v2
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-node@v4
         with:
           node-version: '16'
           cache: 'npm'
@@ -25,7 +24,7 @@ jobs:
         env:
           PERSONIO_CLIENT_ID: ${{ secrets.PERSONIO_CLIENT_ID }}
           PERSONIO_CLIENT_SECRET: ${{ secrets.PERSONIO_CLIENT_SECRET }}
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Change on employee(s) from Personio
           file_pattern: '*.json'
